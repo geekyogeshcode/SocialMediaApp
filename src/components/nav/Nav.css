@@ -3,8 +3,6 @@ nav .Nav-container{
     justify-content: space-between;
     align-items: center;
     outline: none;
-    position: sticky;
-    z-index: 10;
     width: 96%;
     color: var(--color-primary);
 }

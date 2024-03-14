@@ -1,9 +1,10 @@
 .leftbar{
     position: sticky;
     top: 0vw;
-    left: 0vw;
+    left: 0px;
     background-color: var(--color-card); 
-    height: calc(100vh - 10vh);
+    /* height: calc(100vh - 10vh); */
+    height: 100vh;
     /* border: 2px solid; */
     overflow: auto;
 }

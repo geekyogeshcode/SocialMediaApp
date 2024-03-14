@@ -15,7 +15,7 @@ const Layout = () => {
     return( 
       <>
       <Nav />
-          <main className='yogesh'>
+          <main className='yogesh' >
             <Leftbar />
               <div className="Maincontainer">
                 <Outlet />

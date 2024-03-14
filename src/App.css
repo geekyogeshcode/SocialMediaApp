@@ -89,10 +89,10 @@ small,p{
 
 
 main{
-    width: 100vw;
+    width: fit-content;
     display: grid;
     gap: 3%;
-    grid-template-columns: 20% 50% 24%;
+    grid-template-columns: 20% 51% 23%;
 }
 
 @media (max-width:1024px){
