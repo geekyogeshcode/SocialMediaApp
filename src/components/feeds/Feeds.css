@@ -1,0 +1,41 @@
+.feed{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+.like-up{
+    color: blue;
+}
+
+.containerFeed{
+    padding: 1.5vw;
+    border-radius: 2vw;
+    background-color: var(--color-card);
+    width: 100%;
+    overflow: hidden;
+}
+.containerFeed .top-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.containerFeed p{
+    margin: 2vh;
+}
+.containerFeed .mid-container img{
+    max-height: 75vh;
+    border-radius: 1.5vw;
+    user-select: none;
+    aspect-ratio: 1/1;
+}
+
+.containerFeed .bottom-container .action-item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    user-select: none;
+    margin: 3vh;
+}

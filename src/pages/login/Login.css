@@ -1,0 +1,92 @@
+.Login{
+    background-color: var(--color-primary);
+    height: 100vh;
+    width: 100%;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.Login .card{
+    display: flex;
+    width: 50vw;
+    background-color: var(--color-bg);
+    border: 1px solid #ffff;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+.card .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 1vw;
+}
+.left h2{
+    color: var(--color-primary);
+}
+.card p{
+    font-size: 1vw;
+    color: #000;
+}
+.card span{
+    color: var(--color-primary);
+}
+.Login .card .right{
+    flex: 1;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Login form input{
+    padding: 1vw 1.5vw;
+    width: 90%;
+    background-color: transparent;
+    color: #ffff;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 1.2vw;
+}
+form input::placeholder{
+    color: #fff;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+}
+
+
+@media (max-width:600px) {
+    .Login .card{
+        display: flex;
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .Login .card.right{
+        padding-bottom: 20px;
+    }
+    .left h2{
+        color: var(--color-primary);
+    }
+    .card span{
+        color: var(--color-primary);
+        font-size: 5vw;
+    }
+    .left button{
+        font-size: 2vw;
+    }
+    .right input[type="text"],.right input[type="password"]{
+        font-size: 2.3vw;
+    }
+    .right button{
+        font-size: 2.5vw;
+    }
+    .right{
+        padding: 3vw 0;
+    }
+    .card .left p{
+        font-size: 4vw;
+        color: #000;
+    }
+}

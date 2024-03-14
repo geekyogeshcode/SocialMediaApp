@@ -1,0 +1,59 @@
+label,.icon{
+    font-size: 1.5vw;
+    /* padding: 1vh; */
+}
+.tags{
+    margin-right: 1vh;
+}
+.postForm{
+    background-color: var(--color-bg);
+    padding: 2vw;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.postForm .form-top{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 2vh;
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+}
+.form-top button{
+    outline: none;
+    border: none;
+}
+.postForm .form-top input{
+    background-color: transparent;
+    width: 100%;
+    padding: 0.6vw 0.6vw;
+    border: 1px solid var(--color-border);
+    outline: none;
+    font-size: 1.4vw;
+    border-radius: 1vw;
+    color: var(--color-primary);
+}
+.postForm .form-top input::placeholder{
+    color: var(--color-text);
+}
+
+.post-categories{
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    text-align: center;
+}
+.postForm .post-categories span,label{
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 0.5vw 0;
+}
+.postForm span:hover,label:hover{
+    color: var(--color-border);
+    scale: 1.1;
+}

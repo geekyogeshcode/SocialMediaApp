@@ -1,0 +1,39 @@
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+} 
+
+.request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    background-color: var(--color-card);
+}
+.request h5{
+    font-size: 1.2vw;
+}
+.request p{
+    font-size: 1vw;
+}
+.action{
+    color: var(--color-text);
+    cursor: pointer;
+}
+.action .accept{
+    margin-right: 1.5vh;
+}
+
+.accept{
+    color: rgba(26, 212, 26, 0.747);
+}
+.reject{
+    color: rgba(253, 58, 58, 0.822);
+}
+.accept:active{
+    color: rgb(0, 255, 0);
+}
+.reject:active{
+    color: rgb(255, 5, 5);
+}

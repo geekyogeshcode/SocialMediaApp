@@ -1,0 +1,72 @@
+.Signup{
+    background-color: var(--color-primary);
+    height: 100vh;
+    width: 100%;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.Signup .card{
+    display: flex;
+    /* align-items: center; */
+    width: 50vw;
+    background-color: var(--color-bg);
+    border: 1px solid #ffff;
+    border-radius: 2vw;
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+.card .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 1vw;
+}
+.left h2{
+    color: var(--color-primary);
+}
+.card p{
+    font-size: 1vw;
+    color: #000;
+}
+.card span{
+    color: var(--color-primary);
+}
+.Signup .card .right{
+    flex: 1;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Signup form input{
+    padding: 1vw 1.5vw;
+    width: 90%;
+    background-color: transparent;
+    color: #ffff;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 1.2vw;
+}
+form input::placeholder{
+    color: #fff;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+}
+
+@media (max-width:600px) {
+    .Signup .card{
+        display: flex;
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .Signup .card.right{
+        padding-bottom: 20px;
+    }
+}

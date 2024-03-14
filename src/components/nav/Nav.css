@@ -1,0 +1,95 @@
+nav .Nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    position: sticky;
+    z-index: 10;
+    width: 96%;
+    color: var(--color-primary);
+}
+nav{
+    height: 10vh;
+    background-color: var(--color-card);
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.nav-left,.nav-right{
+    display: flex;
+}
+.nav-left{
+    align-items: center;
+    gap: 2vw;
+}
+
+.Nav-container a{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 1.4vw;
+}
+nav input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-primary);
+    font-size: 1.2vw;
+    width: 100%;
+}
+.logo{
+    color: var(--color-primary);
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    width: 50vw;
+    border: 1px solid var(--color-border);
+    border-radius: 2vw;
+    padding: 1vw 2vw;
+}
+.Nav-container .nav-right .user{
+    display: flex;
+    flex-direction: column;
+    line-height: 0vw;
+    /* border: 1px solid; */
+    margin-bottom: 0.5vw;
+}
+.nav-right{
+    gap: 2vw;
+    align-items: center;
+}
+
+
+@media (max-width:700px){
+    .Nav-container .nav-right .user{
+        display: none;
+    }
+    nav{
+        font-size: 4.5vw;
+    }
+    .Nav-container .nav-left a{
+        font-size: 3vw;
+    }
+    .Nav-container .nav-left .logo{
+        font-size: 4vw;
+    }
+    .Nav-container .nav-search{
+        display: none;
+    }
+    .Nav-container .nav-search input{
+        font-size: 2.6vw;
+        /* display: none; */
+    }
+    .nav-right{
+        gap: 3vw;
+    }
+    .nav-right a{
+        font-size: 3vw;
+    }
+
+}
