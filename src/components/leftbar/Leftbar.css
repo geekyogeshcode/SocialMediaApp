@@ -1,7 +1,7 @@
 .leftbar{
     position: sticky;
     top: 0vw;
-    left: 0px;
+    left: 0vw;
     background-color: var(--color-card); 
     /* height: calc(100vh - 10vh); */
     height: 100vh;

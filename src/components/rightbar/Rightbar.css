@@ -4,9 +4,9 @@
     background-color: var(--color-card);
     position: sticky;
     top: 0vw;
-    right: 0px;
-    /* border: 3px solid yellow; */
+    right: 0vw;
     overflow: auto;
+
 }
 
 .rightbar::-webkit-scrollbar{

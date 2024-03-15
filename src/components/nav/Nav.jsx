@@ -21,7 +21,7 @@ const Nav = () => {
                     <FontAwesomeIcon icon={faUser} />
                 </Link>
                 <div className="nav-search">
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    <FontAwesomeIcon icon={faMagnifyingGlass} style={{fontSize:'1.1vw'}} />
                     <input type="search" placeholder='Search' spellCheck='false'/>
                 </div>
             </div>

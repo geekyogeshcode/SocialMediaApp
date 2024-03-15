@@ -48,7 +48,7 @@ const Leftbar = () => {
           </Link>
           <hr />
           <div className="others">
-            <h3>Your Shortcuts</h3>
+            <h4>Your Shortcuts</h4>
           </div>
             <Link to={'/'}>
                 <div className="item">

@@ -20,6 +20,7 @@
 .action{
     color: var(--color-text);
     cursor: pointer;
+    font-size: 1.3vw;
 }
 .action .accept{
     margin-right: 1.5vh;
