@@ -44,12 +44,11 @@
     aspect-ratio: 1/1;
 }
 
-.stories h4{
-    font-size: 1vw;
+.stories h5{
     text-align: center;
     color: var(--color-soft);
 }
-.full-story h4{
+.full-story h5{
     color: black;
 }
 .full-story{
@@ -90,7 +89,7 @@
     .story .user{
         display: none;
     }
-    .stories>h4{
+    .stories h5{
         display: none;
     }
 }

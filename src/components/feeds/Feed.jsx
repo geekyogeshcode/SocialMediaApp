@@ -4,8 +4,6 @@ import HomeFeedData from '../../FakeApi/HomeFeedData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faCommentAlt, faCommentSms, faList, faListDots, faShare, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
-import Comment from '../comments/Comment'
-
 const Feed = (feed) => {
     const [liked, setLiked] = useState(false);
     function hitLIke(){
@@ -22,7 +20,7 @@ const Feed = (feed) => {
                             <div className="user">
                                 <img src={fed.feedProfile} alt="" />
                                 <div>
-                                    <h4>{fed.name}</h4>
+                                    <h5>{fed.name}</h5>
                                     <small>{fed.timeAgo} Minutes ago</small>
                                 </div>
                             </div>

@@ -23,7 +23,7 @@ const Stories = () => {
                                     </div>
                                     <img src={story.story} alt="" />
                             </div>
-                            <h4>{story.name}</h4>
+                            <h5>{story.name}</h5>
                                 
                             </SwiperSlide>
                     ))

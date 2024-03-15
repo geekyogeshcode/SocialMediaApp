@@ -5,11 +5,11 @@ import Feeds from '../../components/feeds/Feeds'
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Stories />
       <AddPost />
       <Feeds />
-    </>
+    </div>
   )
 }
 

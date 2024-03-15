@@ -24,18 +24,6 @@
 .containerFeed p{
     margin: 2vh;
 }
-.top-container .user small{
-    font-size: 0.9vw;
-}
-.top-container{
-    font-size: 1vw;
-}
-.mid-container p{
-    font-size: 1.2vw;
-}
-.bottom-container{
-    font-size: 1.2vw;
-}
 .containerFeed .mid-container img{
     max-height: 75vh;
     border-radius: 1.5vw;

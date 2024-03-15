@@ -18,7 +18,7 @@ const UserStory = () => {
                     <FontAwesomeIcon icon={faAdd}/>
                 </label>
                 <input type="file" id='storyFiles' hidden/>
-                <h4>{CurrentUserData.map(user => user.name)}</h4>
+                <h5>Add story</h5>
     </div>
   )
 }

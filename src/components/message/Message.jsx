@@ -19,7 +19,7 @@ const Message = () => {
         <div className="border-div"></div>
 
         {MessagesData.map(msg =>(
-            <Link to={'/chatbox/id'} key={msg.id}>
+            <Link to={'/chatbox/id'}key={msg.id}>
                 <div className="message" >
                     <div className="user">
                         <img src={msg.img} alt="" />
