@@ -91,10 +91,12 @@ small,p{
 
 
 main{
-    width: 100vw;
+    /* background-color: red; */
+    width: 98.5vw;
     display: grid;
     gap: 3%;
-    grid-template-columns: 20% 50% 24%;
+    /* border: 1px solid red; */
+    grid-template-columns: 20% 50% 24.2%;
 }
 
 @media (max-width:1024px){

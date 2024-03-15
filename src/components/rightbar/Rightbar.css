@@ -3,9 +3,10 @@
     height: 100vh;
     background-color: var(--color-card);
     position: sticky;
-    top: 0vw;
-    right: 0vw;
+    top: 0px;
+    right: 0px;
     overflow: auto;
+    /* border: 2px solid red; */
 
 }
 

@@ -1,3 +1,9 @@
 .DarkModeIcon{
     font-size: 1.65vw;
 }
+
+@media (max-width:700px){
+    .DarkModeIcon{
+        font-size: 3vw;
+    }
+}
