@@ -21,7 +21,6 @@
     position: relative;
     border-radius: 2vw;
 }
-
 .story::after{
     position: absolute;
     content: '';

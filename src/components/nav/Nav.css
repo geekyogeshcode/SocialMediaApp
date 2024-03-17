@@ -11,7 +11,8 @@ nav .Nav-container{
 nav{
     height: 10vh;
     background-color: var(--color-card);
-    width: 98.5;
+    /* width: 98.5; */
+    width: 100%;
     border-bottom: 1px solid var(--color-border);
     /* border: 2px solid red; */
     display: flex;

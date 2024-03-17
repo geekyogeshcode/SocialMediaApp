@@ -1,0 +1,76 @@
+.comment a{
+    display: flex;
+}
+.comment .user{
+    width: 20%;
+}
+.comment p{
+    width: 65%;
+}
+.comments>button{
+    margin-left: 35%;
+    padding: 1vh 2vw;
+    border: none;
+    outline: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.write{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    width: 95%;
+    /* border: 1px solid; */
+}
+.write form input{
+    width: 100%;
+    padding: 1vw 2vw;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    font-size: 1.2vw;
+}
+
+.write form{
+    display: flex;
+    gap: 1vh;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 70%;
+}
+.write form button{
+    width: fit-content;
+    padding: 1vh 3vh;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.write input::placeholder{
+    color: var(--color-border);
+    font-size: 1vw;
+}
+
+@media (max-width:700px){
+    
+.comments .user>img{
+    width: 6vw;
+}
+.comment .user{
+    width: 30%;
+}
+.comment p{
+    width: 60%;
+}
+.write form input{
+    font-size: 3vw;
+    border-radius: 2vw;
+}
+.write form input::placeholder{
+    font-size: 3vw;
+}
+.comments>button{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+}

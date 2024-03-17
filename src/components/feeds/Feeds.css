@@ -39,3 +39,9 @@
     user-select: none;
     margin: 3vh;
 }
+
+@media (max-width:700px){
+    .top-container .user>img{
+        width: 7vw;
+    }
+}

@@ -23,7 +23,7 @@
 }
 .darkmode{
     --text-color:#ffff;
-    --color-bg:#000;
+    --color-bg:black;
     --color-card:#111111; 
     --color-soft:#aaaaaa;
     --color-border:rgb(82, 82, 82);

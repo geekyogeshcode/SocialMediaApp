@@ -32,6 +32,7 @@ label,.icon{
     width: 100%;
     padding: 0.6vw 0.6vw;
     border: 1px solid var(--color-border);
+    /* border: none; */
     outline: none;
     font-size: 1.4vw;
     border-radius: 1vw;
@@ -48,12 +49,34 @@ label,.icon{
     gap: 5vw;
     text-align: center;
 }
-.postForm .post-categories span,label{
-    transition: 0.5s ease;
+.postForm .post-categories> span,label{
+    transition: 0.3s ease;
     cursor: pointer;
     padding: 0.5vw 0;
 }
-.postForm span:hover,label:hover{
+.postForm .post-categories> span:hover,label:hover{
     color: var(--color-border);
     scale: 1.1;
+}
+
+@media (max-width:700px){
+    .postForm .user>img{
+        width: 5vh;
+    }
+    .postForm .user>input{
+        font-size: 3vw;
+        width: 70%;
+    }
+    .postForm .user>input::placeholder{
+        font-size: 3vw;
+    }
+    .postForm .form-top{
+        justify-content: space-around;
+    }
+    .postForm .form-top button{
+        font-size: 2.5vw;
+    }
+    .post-categories>span,label{
+        font-size: 3vw;
+    }
 }
